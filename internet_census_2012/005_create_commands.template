@@ -1,0 +1,1 @@
+zmap -B 10M --target-ports={{PORT_ONE}},{{PORT_TWO}},{{PORT_THREE}} --list-of-ips-file=input_ips.txt --output-file={{DATE_TIME}}___{{PORT_ONE}}_{{PORT_TWO}}_{{PORT_THREE}} --log-directory=/ops/zmap/logs/ --status-updates-file=/ops/zmap/logs/status.txt --blocklist-file=/ops/zmap/blocklist.conf
